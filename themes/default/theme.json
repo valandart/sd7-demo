@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "id": "default",
+  "title": "Sweet Drop 7",
+  "symbols": {
+    "H1": {
+      "static": "symbols/h1.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "H2": {
+      "static": "symbols/h2.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "H3": {
+      "static": "symbols/h3.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "H4": {
+      "static": "symbols/h4.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "L1": {
+      "static": "symbols/l1.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "L2": {
+      "static": "symbols/l2.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "L3": {
+      "static": "symbols/l3.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "L4": {
+      "static": "symbols/l4.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 0.92
+    },
+    "S": {
+      "static": "symbols/s.png",
+      "win": {
+        "type": "code",
+        "effect": "pop"
+      },
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "scale": 1.0
+    },
+    "B": {
+      "static": "symbols/b.png",
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      },
+      "win": {
+        "type": "code",
+        "effect": "shake"
+      },
+      "scale": 0.95
+    }
+  },
+  "board": {
+    "frame": "board/frame.png",
+    "cell": "board/cell.png",
+    "cellMultiplier": {
+      "2": "board/mult_2.png",
+      "4": "board/mult_4.png",
+      "8": "board/mult_8.png",
+      "16": "board/mult_16.png",
+      "32": "board/mult_32.png",
+      "64": "board/mult_64.png",
+      "128": "board/mult_128.png"
+    }
+  },
+  "background": {
+    "base": "background/base.png",
+    "bonus": "background/bonus.png",
+    "portrait": "background/base_portrait.png",
+    "portraitBonus": "background/bonus_portrait.png"
+  },
+  "ui": {
+    "logo": "ui/logo.png",
+    "loader": "ui/loader.png",
+    "modeIcons": {
+      "ante": "ui/mode_ante.png",
+      "bonus": "ui/mode_bonus.png",
+      "super": "ui/mode_super.png",
+      "mega": "ui/mode_mega.png",
+      "max": "ui/mode_max.png"
+    }
+  },
+  "screens": {
+    "bonusIntro": "screens/bonus_intro.png",
+    "bonusOutro": "screens/bonus_outro.png",
+    "bigWin": "screens/big_win.png",
+    "maxWin": "screens/max_win.png"
+  },
+  "fonts": {
+    "main": "Verdana, Arial, sans-serif",
+    "win": "Verdana, Arial, sans-serif"
+  },
+  "sounds": {
+    "files": [
+      "audio/sounds.wav"
+    ],
+    "roles": {
+      "music.base": [
+        0,
+        2000,
+        true
+      ],
+      "music.bonus": [
+        2100,
+        1600,
+        true
+      ],
+      "sfx.spin": [
+        3800,
+        120
+      ],
+      "sfx.land": [
+        4020,
+        70
+      ],
+      "sfx.button": [
+        4200,
+        50
+      ],
+      "sfx.win.small": [
+        4360,
+        280
+      ],
+      "sfx.win.big": [
+        4740,
+        560
+      ],
+      "sfx.tumble": [
+        5400,
+        140
+      ],
+      "sfx.bomb": [
+        5640,
+        450
+      ],
+      "sfx.multiplier.up": [
+        6200,
+        90
+      ],
+      "sfx.scatter.land": [
+        6400,
+        180
+      ],
+      "sfx.bonus.trigger": [
+        6680,
+        600
+      ],
+      "sfx.bonus.end": [
+        7380,
+        680
+      ],
+      "sfx.maxwin": [
+        8160,
+        960
+      ]
+    }
+  },
+  "colors": {
+    "primary": "#7b2cbf",
+    "accent": "#ffd23f",
+    "text": "#ffffff",
+    "background": "#1a0b2e"
+  },
+  "texts": {
+    "en": {
+      "gameName": "Sweet Drop 7",
+      "symbol.S": "Scatter",
+      "symbol.B": "Bomb"
+    },
+    "ru": {
+      "gameName": "Sweet Drop 7",
+      "symbol.S": "Скаттер",
+      "symbol.B": "Бомба"
+    }
+  },
+  "timings": {
+    "tumbleMs": 300,
+    "bombMs": 500,
+    "winMs": 600
+  }
+}

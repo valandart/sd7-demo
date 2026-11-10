@@ -1,0 +1,115 @@
+{
+  "note": "Демо-наборы книг для офлайн-режима (не математика игры: RTP выборки не равен 96,2%).",
+  "game": "sweet_drop_7",
+  "wincap": 1000000,
+  "modes": [
+    {
+      "mode": "base",
+      "cost": 1.0,
+      "books": 200,
+      "file": "base.json",
+      "sampleRtp": 0.6726,
+      "tags": {
+        "no_win": 154,
+        "single_tumble": 27,
+        "long_tumble": 5,
+        "bomb": 14,
+        "bomb_win": 3,
+        "bonus": 11,
+        "retrigger": 5,
+        "big_win": 8,
+        "wincap": 3
+      }
+    },
+    {
+      "mode": "ante",
+      "cost": 3.0,
+      "books": 200,
+      "file": "ante.json",
+      "sampleRtp": 0.3264,
+      "tags": {
+        "no_win": 147,
+        "single_tumble": 32,
+        "long_tumble": 5,
+        "bomb": 20,
+        "bomb_win": 7,
+        "bonus": 14,
+        "retrigger": 7,
+        "big_win": 8,
+        "wincap": 3
+      }
+    },
+    {
+      "mode": "bonus",
+      "cost": 100.0,
+      "books": 40,
+      "file": "bonus.json",
+      "sampleRtp": 0.6502,
+      "tags": {
+        "no_win": 0,
+        "single_tumble": 0,
+        "long_tumble": 7,
+        "bomb": 7,
+        "bomb_win": 3,
+        "bonus": 40,
+        "retrigger": 9,
+        "big_win": 4,
+        "wincap": 2
+      }
+    },
+    {
+      "mode": "super",
+      "cost": 300.0,
+      "books": 40,
+      "file": "super.json",
+      "sampleRtp": 0.867,
+      "tags": {
+        "no_win": 0,
+        "single_tumble": 0,
+        "long_tumble": 6,
+        "bomb": 6,
+        "bomb_win": 2,
+        "bonus": 40,
+        "retrigger": 12,
+        "big_win": 4,
+        "wincap": 2
+      }
+    },
+    {
+      "mode": "mega",
+      "cost": 500.0,
+      "books": 40,
+      "file": "mega.json",
+      "sampleRtp": 0.8675,
+      "tags": {
+        "no_win": 0,
+        "single_tumble": 0,
+        "long_tumble": 6,
+        "bomb": 5,
+        "bomb_win": 2,
+        "bonus": 40,
+        "retrigger": 12,
+        "big_win": 4,
+        "wincap": 2
+      }
+    },
+    {
+      "mode": "max",
+      "cost": 1000.0,
+      "books": 40,
+      "file": "max.json",
+      "sampleRtp": 0.9863,
+      "tags": {
+        "no_win": 0,
+        "single_tumble": 0,
+        "long_tumble": 3,
+        "bomb": 6,
+        "bomb_win": 2,
+        "bonus": 40,
+        "retrigger": 16,
+        "big_win": 2,
+        "wincap": 2
+      }
+    }
+  ]
+}
