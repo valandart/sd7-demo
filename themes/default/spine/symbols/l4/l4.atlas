@@ -1,0 +1,12 @@
+l4.png
+size:512,512
+filter:Linear,Linear
+pma:false
+bit
+bounds:366,2,40,39
+body
+bounds:98,2,200,156
+fx_shine
+bounds:2,2,94,186
+fx_spark
+bounds:300,2,64,64

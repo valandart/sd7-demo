@@ -1,0 +1,12 @@
+h4.png
+size:512,512
+filter:Linear,Linear
+pma:false
+bit
+bounds:404,2,40,39
+body
+bounds:98,2,238,184
+fx_shine
+bounds:2,2,94,186
+fx_spark
+bounds:338,2,64,64

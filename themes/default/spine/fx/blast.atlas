@@ -1,0 +1,10 @@
+blast.png
+size:512,512
+filter:Linear,Linear
+pma:false
+drop
+bounds:2,256,40,39
+fx_flash
+bounds:2,2,252,252
+fx_ring
+bounds:256,2,244,244

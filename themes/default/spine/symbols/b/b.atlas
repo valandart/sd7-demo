@@ -1,0 +1,14 @@
+b.png
+size:512,512
+filter:Linear,Linear
+pma:false
+bit
+bounds:73,213,40,39
+body
+bounds:2,2,209,209
+fuse
+bounds:373,2,100,84
+fx_glow
+bounds:213,2,158,158
+spark
+bounds:2,213,69,79

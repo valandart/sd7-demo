@@ -1,0 +1,16 @@
+s.png
+size:512,512
+filter:Linear,Linear
+pma:false
+bit
+bounds:379,245,40,39
+body
+bounds:2,2,301,241
+flame
+bounds:98,245,213,80
+fx_glow
+bounds:305,2,198,198
+fx_shine
+bounds:2,245,94,186
+fx_spark
+bounds:313,245,64,64

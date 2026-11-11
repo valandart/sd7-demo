@@ -1,10 +1,15 @@
 {
-  "schema": 1,
+  "schema": 2,
   "id": "default",
-  "title": "Sweet Drop 7",
+  "title": "Cherry Bombs",
   "symbols": {
     "H1": {
       "static": "symbols/h1.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/h1/h1.json",
+        "atlas": "spine/symbols/h1/h1.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -16,11 +21,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "H2": {
       "static": "symbols/h2.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/h2/h2.json",
+        "atlas": "spine/symbols/h2/h2.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -32,11 +41,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "H3": {
       "static": "symbols/h3.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/h3/h3.json",
+        "atlas": "spine/symbols/h3/h3.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -48,11 +61,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "H4": {
       "static": "symbols/h4.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/h4/h4.json",
+        "atlas": "spine/symbols/h4/h4.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -64,11 +81,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "L1": {
       "static": "symbols/l1.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/l1/l1.json",
+        "atlas": "spine/symbols/l1/l1.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -80,11 +101,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "L2": {
       "static": "symbols/l2.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/l2/l2.json",
+        "atlas": "spine/symbols/l2/l2.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -96,11 +121,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "L3": {
       "static": "symbols/l3.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/l3/l3.json",
+        "atlas": "spine/symbols/l3/l3.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -112,11 +141,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "L4": {
       "static": "symbols/l4.png",
+      "scale": 1,
+      "spine": {
+        "skeleton": "spine/symbols/l4/l4.json",
+        "atlas": "spine/symbols/l4/l4.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -128,11 +161,15 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 0.92
+      }
     },
     "S": {
       "static": "symbols/s.png",
+      "scale": 1.3,
+      "spine": {
+        "skeleton": "spine/symbols/s/s.json",
+        "atlas": "spine/symbols/s/s.atlas"
+      },
       "win": {
         "type": "code",
         "effect": "pop"
@@ -144,28 +181,32 @@
       "explode": {
         "type": "code",
         "effect": "burst"
-      },
-      "scale": 1.0
+      }
     },
     "B": {
       "static": "symbols/b.png",
-      "land": {
-        "type": "code",
-        "effect": "drop"
-      },
-      "explode": {
-        "type": "code",
-        "effect": "burst"
+      "scale": 1.4,
+      "spine": {
+        "skeleton": "spine/symbols/b/b.json",
+        "atlas": "spine/symbols/b/b.atlas"
       },
       "win": {
         "type": "code",
         "effect": "shake"
       },
-      "scale": 0.95
+      "land": {
+        "type": "code",
+        "effect": "drop"
+      },
+      "explode": {
+        "type": "code",
+        "effect": "burst"
+      }
     }
   },
   "board": {
     "frame": "board/frame.png",
+    "frameBonus": "board/frame_bonus.png",
     "cell": "board/cell.png",
     "cellMultiplier": {
       "2": "board/mult_2.png",
@@ -183,26 +224,71 @@
     "portrait": "background/base_portrait.png",
     "portraitBonus": "background/bonus_portrait.png"
   },
+  "spine": {
+    "cellMultiplier": {
+      "skeleton": "spine/cell_multiplier/cell_multiplier.json",
+      "atlas": "spine/cell_multiplier/cell_multiplier.atlas"
+    },
+    "mascot": {
+      "skeleton": "spine/mascot/mascot.json",
+      "atlas": "spine/mascot/mascot.atlas"
+    },
+    "fx": {
+      "blast": {
+        "skeleton": "spine/fx/blast.json",
+        "atlas": "spine/fx/blast.atlas"
+      },
+      "transition": {
+        "skeleton": "spine/fx/transition.json",
+        "atlas": "spine/fx/transition.atlas"
+      }
+    }
+  },
   "ui": {
     "logo": "ui/logo.png",
+    "logoLine": "ui/logo_line.png",
     "loader": "ui/loader.png",
+    "mascot": "ui/mascot.png",
     "modeIcons": {
       "ante": "ui/mode_ante.png",
       "bonus": "ui/mode_bonus.png",
       "super": "ui/mode_super.png",
       "mega": "ui/mode_mega.png",
       "max": "ui/mode_max.png"
+    },
+    "buttons": {
+      "spin": "ui/spin.png",
+      "spinStop": "ui/spin_stop.png",
+      "spinSkip": "ui/spin_skip.png",
+      "spinEmpty": "ui/spin_empty.png",
+      "auto": "ui/auto.png",
+      "autoOn": "ui/auto_on.png",
+      "turbo": "ui/turbo.png",
+      "turboOn": "ui/turbo_on.png",
+      "minus": "ui/minus.png",
+      "plus": "ui/plus.png",
+      "menu": "ui/menu.png",
+      "info": "ui/info.png",
+      "soundOn": "ui/sound_on.png",
+      "soundOff": "ui/sound_off.png",
+      "close": "ui/close.png",
+      "buy": "ui/buy.png",
+      "ante": "ui/ante.png",
+      "anteOn": "ui/ante_on.png",
+      "bar": "ui/bar.png",
+      "winBox": "ui/win_box.png"
     }
   },
   "screens": {
     "bonusIntro": "screens/bonus_intro.png",
     "bonusOutro": "screens/bonus_outro.png",
     "bigWin": "screens/big_win.png",
-    "maxWin": "screens/max_win.png"
+    "maxWin": "screens/max_win.png",
+    "rays": "screens/rays.png"
   },
   "fonts": {
-    "main": "Verdana, Arial, sans-serif",
-    "win": "Verdana, Arial, sans-serif"
+    "main": "'DejaVu Sans', Verdana, Arial, sans-serif",
+    "win": "'DejaVu Sans', Verdana, Arial, sans-serif"
   },
   "sounds": {
     "files": [
@@ -266,30 +352,107 @@
       "sfx.maxwin": [
         8160,
         960
+      ],
+      "sfx.fuse": [
+        9220,
+        700
+      ],
+      "sfx.multiplier.apply": [
+        10020,
+        110
+      ],
+      "sfx.anticipation": [
+        10240,
+        900
+      ],
+      "sfx.bigwin.tier": [
+        11240,
+        240
       ]
     }
   },
   "colors": {
-    "primary": "#7b2cbf",
-    "accent": "#ffd23f",
-    "text": "#ffffff",
-    "background": "#1a0b2e"
+    "primary": "#3B1456",
+    "accent": "#FFB627",
+    "text": "#FFF1DC",
+    "background": "#160B2A",
+    "panel": "#22113A",
+    "panelLine": "#6B4E8C",
+    "cherry": "#E5173F",
+    "mint": "#2ED3B7",
+    "caramel": "#FFB627",
+    "cream": "#FFF1DC",
+    "ink": "#0E0718",
+    "heat": "#FF6A1F",
+    "gold": "#FFD060"
   },
   "texts": {
     "en": {
-      "gameName": "Sweet Drop 7",
-      "symbol.S": "Scatter",
-      "symbol.B": "Bomb"
+      "gameName": "Cherry Bombs",
+      "mode.BASE": "Base game",
+      "mode.ANTE": "Heat-Up Ante",
+      "mode.BONUS": "Caramel Spins",
+      "mode.SUPER": "Double Glaze",
+      "mode.MEGA": "Full Glaze",
+      "mode.MAX": "Burnt Sugar",
+      "modeInfo.BONUS": "10 free spins, empty grid",
+      "modeInfo.SUPER": "24 cells start at x4",
+      "modeInfo.MEGA": "All 49 cells start at x4",
+      "modeInfo.MAX": "All cells x8, four cells x16",
+      "modeInfo.ANTE": "Bonus 4.3x more often. Does not change payouts.",
+      "ui.win": "WIN",
+      "ui.totalWin": "TOTAL WIN",
+      "ui.balance": "BALANCE",
+      "ui.bet": "BET",
+      "ui.spinCost": "SPIN COST",
+      "ui.buyBonus": "BUY BONUS",
+      "ui.bonusMenu": "BONUS",
+      "ui.ante": "ANTE 3x",
+      "ui.on": "ON",
+      "ui.off": "OFF",
+      "ui.auto": "AUTO",
+      "ui.turbo": "TURBO",
+      "ui.freeSpins": "FREE SPINS",
+      "ui.demo": "DEMO",
+      "ui.replay": "REPLAY",
+      "ui.tapToStart": "TAP TO START",
+      "ui.tapToContinue": "TAP TO CONTINUE",
+      "ui.tapToSkip": "TAP TO SKIP",
+      "ui.ovenIsOn": "THE OVEN IS ON",
+      "ui.caramelize": "Winning cells caramelize: x2 → x128",
+      "ui.moreFreeSpins": "+{n} FREE SPINS",
+      "ui.maxWin": "MAX WIN",
+      "ui.maxWinSub": "10,000x",
+      "ui.bonusTotal": "TOTAL WIN",
+      "ui.spinsPlayed": "{n} free spins played",
+      "win.big": "BIG WIN",
+      "win.super": "SUPER WIN",
+      "win.mega": "MEGA WIN",
+      "win.epic": "EPIC WIN",
+      "symbol.H1": "Chocolate Truffle",
+      "symbol.H2": "Strawberry Donut",
+      "symbol.H3": "Lemon Star Cookie",
+      "symbol.H4": "Blueberry Macaron",
+      "symbol.L1": "Mint Candy",
+      "symbol.L2": "Blue Gumdrop",
+      "symbol.L3": "Orange Slice",
+      "symbol.L4": "Lime Drop",
+      "symbol.S": "Caramel Pot (Scatter)",
+      "symbol.B": "Cherry Bomb"
     },
     "ru": {
-      "gameName": "Sweet Drop 7",
-      "symbol.S": "Скаттер",
-      "symbol.B": "Бомба"
+      "gameName": "Cherry Bombs",
+      "symbol.H1": "Шоколадный трюфель",
+      "symbol.H2": "Клубничный пончик",
+      "symbol.H3": "Звезда-печенье",
+      "symbol.H4": "Черничный макарон",
+      "symbol.L1": "Мятный леденец",
+      "symbol.L2": "Голубая мармеладка",
+      "symbol.L3": "Апельсиновая долька",
+      "symbol.L4": "Лаймовое драже",
+      "symbol.S": "Сотейник (скаттер)",
+      "symbol.B": "Вишнёвая бомба"
     }
   },
-  "timings": {
-    "tumbleMs": 300,
-    "bombMs": 500,
-    "winMs": 600
-  }
+  "timings": {}
 }

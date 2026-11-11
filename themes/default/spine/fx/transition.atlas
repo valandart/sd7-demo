@@ -1,0 +1,8 @@
+transition.png
+size:512,512
+filter:Linear,Linear
+pma:false
+fx_glow
+bounds:132,2,128,128
+heat
+bounds:2,2,128,239

@@ -1,0 +1,12 @@
+h2.png
+size:512,512
+filter:Linear,Linear
+pma:false
+bit
+bounds:410,2,40,39
+body
+bounds:2,2,244,244
+fx_shine
+bounds:248,2,94,186
+fx_spark
+bounds:344,2,64,64
