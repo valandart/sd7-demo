@@ -9,9 +9,9 @@ bounds:2,2,116,116
 fx_flash
 bounds:120,2,116,116
 plate_x128
-bounds:238,2,112,112
+bounds:238,2,114,114
 plate_x16
-bounds:352,2,112,112
+bounds:354,2,112,112
 plate_x2
 bounds:2,120,112,112
 plate_x32
@@ -19,6 +19,6 @@ bounds:116,120,112,112
 plate_x4
 bounds:230,120,112,112
 plate_x64
-bounds:344,120,112,112
+bounds:344,120,114,112
 plate_x8
 bounds:2,234,112,112
